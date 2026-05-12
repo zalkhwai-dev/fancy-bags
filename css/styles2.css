@@ -1,0 +1,193 @@
+body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fffafc;
+        color: #333;
+        text-align: center;
+    background-image: url('pexels-cottonbro-6650010.jpg'); }
+  
+
+header {
+    background-color:#e2b4c3;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .catalog {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .catalog h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #a43f5c;
+        }
+
+        .bag-collection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .bag {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border: 2px solid #ecf0f1; /* Light border */
+        }
+
+        .bag:hover {
+            transform: translateY(-10px);
+            border-color: #3498db; /* Light blue border on hover */
+        }
+
+        .bag img {
+            max-width: 100%;
+            height: 200;
+            border-radius: 50%; /* Circular image */
+            border: 4px solid #a43f5c; 
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+
+        }
+
+        .bag img:hover {
+            transform: scale(1.1); /* Zoom-in effect on hover */
+        }
+
+        .bag h3 {
+            font-size: 22px;
+            margin: 10px 0;
+            color: #d4af37;; /* Dark blue */
+        }
+
+        .bag p {
+            font-size: 16px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .bag p strong {
+            color: #2c3e50; /* Dark blue */
+        }
+
+        .view-details-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db; /* Blue button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .view-details-button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        .delete-button {
+            padding: 10px 20px;
+            background-color: #a43f5c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .delete-button:hover {
+            background-color: #c0392b; /* Darker red on hover */
+        }
+
+        
+    
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .modal-buttons button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .remove-button {
+            background-color: #e74c3c;
+            color: white;
+        }
+
+        .remove-button:hover {
+            background-color: #c0392b;
+        }
+
+        .cancel-button {
+            background-color: #95a5a6;
+            color: white;
+        }
+
+        .cancel-button:hover {
+            background-color: #7f8c8d;
+        }
+
+ footer {
+
+         text-align: center;
+         padding: 20px;
+         background-color: #e2b4c3;
+         color: white;
+         margin-top: 40px;
+        }
+    </style>
+
+</html>
